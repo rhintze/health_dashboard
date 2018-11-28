@@ -1,0 +1,42 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: 2rem 1fr 1fr 1fr 1fr 2rem;
+  grid-auto-rows: minmax(5rem, auto);
+  // grid-row-gap: 1.5rem;
+  // grid-column-gap: 1.5rem;
+  grid-gap: 1.5rem;
+  grid-template-areas: 
+    "header header header header header header"
+    ". actions actions actions actions ."
+    ". map map profile activity ."
+    ". appointments appointments documents activity ."
+  ;
+}
+.header{
+  background-color: $white;
+  grid-area: header;
+}
+.actions{
+  background-color: $white;
+  grid-area: actions;
+}
+.map{
+  background-color: $white;
+  grid-area: map;
+}
+.profile{
+  background-color: $white;
+  grid-area: profile;
+}
+.activity{
+  background-color: $white;
+  grid-area: activity;
+}
+.appointments{
+  background-color: $white;
+  grid-area: appointments;
+}
+.documents{
+  background-color: $white;
+  grid-area: documents;
+}

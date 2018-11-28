@@ -1,2 +1,6 @@
-@import "partials/_reset.css";
 @import "modules/variables";
+@import "partials/reset";
+// Components
+@import "partials/global-styles";
+@import "partials/main-layout";
+@import "partials/c-dropdown";

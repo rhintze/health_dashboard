@@ -1,5 +1,5 @@
 {
-  "name": "sass_template",
+  "name": "health_dashboard",
   "version": "1.0.0",
   "description": "Boiler plate for Sass projects",
   "main": "index.js",
@@ -13,5 +13,13 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhintze/health_dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhintze/health_dashboard/issues"
+  },
+  "homepage": "https://github.com/rhintze/health_dashboard#readme"
 }
