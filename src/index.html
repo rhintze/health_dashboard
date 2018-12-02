@@ -7,26 +7,30 @@
   <title>Health Dashboard</title>
 
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <div class="grid-container">
     <header class="header">
-      <!-- <div class="header__brand"><img src="img/logo.png" alt="Logo"></div>
-      <nav class="header__nav">
-        <ul>
-          <li>Dashboard</li>
-          <li>Appointments</li>
-          <li>Documents</li>
+      <div class="header__brand"><img src="img/logo.png" alt="Logo"></div>
+      <nav class="header__nav" role="navigation">
+        <ul class="header__main__nav">
+          <li class="active"><a href="#!">Dashboard</a></li>
+          <li><a href="#!">Appointments</a></li>
+          <li><a href="#!">Documents</a></li>
         </ul>
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#!">Link 1</a>
-              <a href="#!">Link 2</a>
-            </div>
+          <a href="javascript:dropdown()" class="dropbtn">Hello, Ricardo 
+            <span class="avatar" ><img src="img/profile.jpg" alt="Avatar"></span>
+            <i class="fas fa-caret-down"></i>
+          </a>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#!">Link 1</a>
+            <a href="#!">Link 2</a>
           </div>
-      </nav> -->
+        </div>
+      </nav>
     </header>
     <div class="actions">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, dolorum.

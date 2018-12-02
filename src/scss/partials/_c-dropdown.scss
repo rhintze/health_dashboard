@@ -1,6 +1,5 @@
 /* Dropdown Button */
 .dropbtn {
-  padding: 16px;
   cursor: pointer;
 
   /* Dropdown button on hover & focus */
@@ -11,7 +10,9 @@
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
-  display: inline-block;
+  .fas{
+    font-size: .75rem;
+  }
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {

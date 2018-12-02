@@ -1,7 +1,7 @@
 .grid-container{
   display: grid;
-  grid-template-columns: 2rem 1fr 1fr 1fr 1fr 2rem;
-  grid-auto-rows: minmax(5rem, auto);
+  grid-template-columns: 1.5rem 1fr 1fr 1fr 1fr 1.5rem;
+  grid-auto-rows: minmax(1rem, auto);
   // grid-row-gap: 1.5rem;
   // grid-column-gap: 1.5rem;
   grid-gap: 1.5rem;

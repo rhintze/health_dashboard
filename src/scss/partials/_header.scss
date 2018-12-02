@@ -1,0 +1,68 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: $mid-gray;
+  @include default-box-shadow;
+
+  &__brand{
+    margin-left: 3rem;
+    height: 3rem;
+    width: 3rem;
+
+    img{
+      width: 100%;
+    }
+  }
+  &__nav{
+    margin-right:3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__main__nav{
+    display: flex;
+    
+    li{
+      padding: 0 1.5rem;
+      a{
+        text-decoration: none;
+        color: $mid-gray;
+        &:hover{
+          color: $black;
+        }
+      }
+      &.active a{
+        font-weight: bolder;
+        color: $black;
+      }
+    }
+  }
+  .dropdown{
+    margin-left: 3rem;
+    a{
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: $mid-gray;
+      padding: .25rem .5rem .25rem 1rem;
+      border-radius: .25rem;
+      &:hover{
+        color:$black;
+        background-color: $bg-gray;
+      }
+    }
+    .avatar{
+      width: 2.25rem;
+      height: 2.25rem;
+      display: flex;
+      margin: 0 .5rem 0 2rem;
+      img{
+        overflow: hidden;
+        border-radius: 50%;
+        // object-fit: cover;
+        width: 2.5rem;;
+      }
+    }
+  }
+}
