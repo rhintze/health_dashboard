@@ -15,20 +15,23 @@
   }
 }
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.dropdown__content {
   display: none;
   position: absolute;
   background-color: $white;
   min-width: 160px;
   @include default-box-shadow;
   z-index: 1;
+  top: calc(100% + .2rem);
   /* Links inside the dropdown */
   a{
   color: $black;
   display: block;
+  text-decoration: none;
+  padding: .75em 1em;
     /* Change color of dropdown links on hover */
     &:hover{
-      background-color: $white;
+      background-color: $bg-gray;
     }
   }
 }

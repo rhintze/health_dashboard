@@ -57,7 +57,7 @@
   }
   .dropdown{
     margin-left: 3rem;
-    a{
+    &__btn{
       display: inline-flex;
       align-items: center;
       text-decoration: none;
@@ -80,6 +80,10 @@
         // object-fit: cover;
         width: 2.5rem;;
       }
+    }
+    &__content{
+      right: 0;
+      width: 100%;
     }
   }
 }

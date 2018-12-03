@@ -56,6 +56,27 @@ body {
   color: #1B1B20;
   background-color: #F5F5F8; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.75rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: 1.25rem; }
+
+h5 {
+  font-size: 1rem; }
+
+h6 {
+  font-size: .75rem; }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1.5rem 1fr 1fr 1fr 1fr 1.5rem;
@@ -150,7 +171,7 @@ body {
       color: #1B1B20; }
   .header .dropdown {
     margin-left: 3rem; }
-    .header .dropdown a {
+    .header .dropdown__btn {
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
@@ -161,7 +182,7 @@ body {
       color: #5A5A5E;
       padding: .25rem .5rem .25rem 1rem;
       border-radius: .25rem; }
-      .header .dropdown a:hover {
+      .header .dropdown__btn:hover {
         color: #1B1B20;
         background-color: #F5F5F8; }
     .header .dropdown .avatar {
@@ -175,6 +196,9 @@ body {
         overflow: hidden;
         border-radius: 50%;
         width: 2.5rem; }
+    .header .dropdown__content {
+      right: 0;
+      width: 100%; }
 
 /* Dropdown Button */
 .dropbtn {
@@ -190,7 +214,7 @@ body {
     font-size: .75rem; }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.dropdown__content {
   display: none;
   position: absolute;
   background-color: #fff;
@@ -198,13 +222,16 @@ body {
   -webkit-box-shadow: 0 0.1rem 1rem 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.1rem 1rem 0px rgba(0, 0, 0, 0.1);
   z-index: 1;
+  top: calc(100% + .2rem);
   /* Links inside the dropdown */ }
-  .dropdown-content a {
+  .dropdown__content a {
     color: #1B1B20;
     display: block;
+    text-decoration: none;
+    padding: .75em 1em;
     /* Change color of dropdown links on hover */ }
-    .dropdown-content a:hover {
-      background-color: #fff; }
+    .dropdown__content a:hover {
+      background-color: #F5F5F8; }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
